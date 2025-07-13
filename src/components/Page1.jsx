@@ -32,7 +32,7 @@ const Page1 = () => {
     >
       <h1
         ref={title}
-        className="uppercase  translate-x-5 font-medium text-[35rem] w-auto"
+        className="uppercase text-[25rem]   translate-x-5 font-medium  md:text-[35rem] w-auto"
       >
         rohan&nbsp;keshri
       </h1>
