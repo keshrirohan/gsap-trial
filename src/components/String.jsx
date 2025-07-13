@@ -46,9 +46,7 @@ const String = () => {
         width={1200}
         height={500}
         ref={stringRef}
-        style={{
-          border: "2px solid red",
-        }}
+        
       >
         <path
           d="M 10 250 Q 600 250 1190 250"
