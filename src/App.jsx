@@ -1,11 +1,10 @@
-import { useRef, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useRef } from "react";
 import "./App.css";
 import Page from "./components/Page";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Page1 from "./components/Page1";
+import String from "./components/String";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -33,7 +32,7 @@ function App() {
   const page3styling = () => {
     gsap.from(box3Ref.current, {
       scale: 0,
-      
+
       x: 500,
       duration: 2,
       opacity: 0,
@@ -55,6 +54,7 @@ function App() {
 
       <Page1 bgcolor="#FFE4E1" />
       <Page bgcolor="#FAEBD7" />
+      <String />
     </>
   );
 }
